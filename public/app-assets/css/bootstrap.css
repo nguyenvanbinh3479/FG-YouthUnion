@@ -3698,6 +3698,7 @@ button.close {
   outline: 0; }
 
 .modal-backdrop {
+  opacity: 0.2;
   position: fixed;
   top: 0;
   right: 0;
@@ -3752,7 +3753,7 @@ button.close {
 @media (min-width: 576px) {
   .modal-dialog {
     max-width: 500px;
-    margin: 1.75rem auto; }
+    margin: 5.75rem auto; }
   .modal-dialog-centered {
     min-height: calc(100% - (1.75rem * 2)); }
   .modal-sm {
